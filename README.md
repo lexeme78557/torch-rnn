@@ -10,7 +10,6 @@ Run `train.py` with the dataset filename to train
 
 ```
 python train.py shakespeare.txt --cuda=True/False
-
 ```
 
 ## Text Generation
@@ -19,6 +18,5 @@ Run `generate.py` with the saved model from training and a starting string to be
 
 ```
  python generate.py shakespeare.pt -s="A" --cuda=True/False
-
 ```
 
